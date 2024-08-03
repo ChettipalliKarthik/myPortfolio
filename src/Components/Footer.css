@@ -1,0 +1,64 @@
+.Footer {
+    width: 100%;
+    height: 50vh;
+    background: rgba(19,19, 19, 0.8);
+}
+
+.Footer-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50vh;
+}
+.Home, .Phone, .Mail{
+    display: flex;
+    gap: 9px;
+    margin: 10px;
+}
+
+.Footer p {
+    font-size: 300;
+}
+
+.right p {
+    margin: 8px 0;
+    font-size: 1.2rem;
+}
+
+.right .social {
+    display: flex;
+    gap: 9px;
+    margin-top: 17px;
+}
+
+@media screen and (max-width:1040px) {
+    .Footer {
+        width: 100%;
+        height: 100vh;
+    }
+    .Footer-container{
+        width: 100%;
+        height: 100vh;
+        display: inline;
+    }  
+      
+
+    .Home, .Phone, .Mail{
+        display: flex;
+        gap: 30px;
+        margin: 9px 0;
+        margin-left: 2px;
+    } 
+    .left{
+        padding-top: 150px;
+        margin-bottom: 40px;
+    }
+    .right {
+        margin-left: 2px;
+    }
+    .social {
+        display: flex;
+        margin-top: 20px;
+        text-align: center;
+    }
+}
